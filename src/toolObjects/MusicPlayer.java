@@ -24,8 +24,6 @@ public class MusicPlayer {
 	 *            the destination of the media file.
 	 */
 	public MusicPlayer(String fileName) {
-		// FIXME: reduce the number of calls to the code below
-		// Obtain a clip.
 		if (clips.containsKey(fileName)) {
 			this.clip = clips.get(fileName);
 			return;
